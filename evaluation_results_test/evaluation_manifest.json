@@ -1,0 +1,19 @@
+{
+  "run_name": "step2_evaluation",
+  "generated_at": "2026-04-20T11:15:57.286366+00:00",
+  "input_sources": {
+    "gold_table": "structured_tables_test/schema_gold_table.json",
+    "prediction:schema_predictions_rule_based": "structured_tables_test/schema_predictions_rule_based.json"
+  },
+  "span_caps": [
+    1,
+    2,
+    3,
+    "all"
+  ],
+  "query_config": "/Users/vaibhav_nikam/PycharmProjects/IATA_Submission/step2_evaluation/configs/pio_queries.json",
+  "record_counts": {
+    "Rule-based": 191
+  },
+  "notes": ""
+}

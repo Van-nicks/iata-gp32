@@ -1,0 +1,54 @@
+[
+  {
+    "pipeline": "Rule-based",
+    "query": "trials involving children",
+    "field": "participants",
+    "gold_hits": 38,
+    "pred_hits": 41,
+    "tp": 37,
+    "fp": 4,
+    "fn": 1,
+    "precision": 0.9024,
+    "recall": 0.9737,
+    "f1": 0.9367
+  },
+  {
+    "pipeline": "Rule-based",
+    "query": "trials with placebo",
+    "field": "interventions",
+    "gold_hits": 16,
+    "pred_hits": 40,
+    "tp": 16,
+    "fp": 24,
+    "fn": 0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1": 0.5714
+  },
+  {
+    "pipeline": "Rule-based",
+    "query": "trials measuring survival or mortality",
+    "field": "outcomes",
+    "gold_hits": 13,
+    "pred_hits": 17,
+    "tp": 13,
+    "fp": 4,
+    "fn": 0,
+    "precision": 0.7647,
+    "recall": 1.0,
+    "f1": 0.8667
+  },
+  {
+    "pipeline": "Rule-based",
+    "query": "trials measuring pain",
+    "field": "outcomes",
+    "gold_hits": 28,
+    "pred_hits": 26,
+    "tp": 21,
+    "fp": 5,
+    "fn": 7,
+    "precision": 0.8077,
+    "recall": 0.75,
+    "f1": 0.7778
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-04-20T11:38:14.316852+00:00",
+  "cleaned_json": null,
+  "results_json": null,
+  "gold_rows": 0,
+  "prediction_rows": {},
+  "elements": [
+    "participants",
+    "interventions",
+    "outcomes"
+  ]
+}

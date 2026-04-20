@@ -1,0 +1,4 @@
+field,max_spans,n_docs,support_docs,gold_docs,pred_docs,covered_gold_docs,micro_tp,micro_fp,micro_fn,micro_precision,micro_recall,micro_f1,macro_precision,macro_recall,macro_f1,coverage_gold,coverage_all,pipeline
+participants,,191,189,187,181,179,2,565,582,0.0035,0.0034,0.0035,0.0037,0.0031,0.0033,0.9572,0.9476,Rule-based
+interventions,,191,187,175,148,136,0,395,666,0.0,0.0,0.0,0.0,0.0,0.0,0.7771,0.7749,Rule-based
+outcomes,,191,190,188,162,160,1,492,1338,0.002,0.0007,0.0011,0.0013,0.0008,0.001,0.8511,0.8482,Rule-based

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-04-20T10:46:12.812657+00:00",
+  "cleaned_json": "cleaned_data/cleaned_dataset.json",
+  "results_json": "extraction_pipeline_results.json",
+  "gold_rows": 4933,
+  "prediction_rows": {
+    "Rule-based": 191
+  },
+  "elements": [
+    "participants",
+    "interventions",
+    "outcomes"
+  ]
+}

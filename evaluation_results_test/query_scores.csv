@@ -1,0 +1,5 @@
+pipeline,query,field,gold_hits,pred_hits,tp,fp,fn,precision,recall,f1
+Rule-based,trials involving children,participants,38,41,37,4,1,0.9024,0.9737,0.9367
+Rule-based,trials with placebo,interventions,16,40,16,24,0,0.4,1.0,0.5714
+Rule-based,trials measuring survival or mortality,outcomes,13,17,13,4,0,0.7647,1.0,0.8667
+Rule-based,trials measuring pain,outcomes,28,26,21,5,7,0.8077,0.75,0.7778

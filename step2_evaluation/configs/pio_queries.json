@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "queries": [
+    {
+      "name": "trials involving children",
+      "field": "participants",
+      "keywords": ["children", "child", "pediatric", "paediatric", "infant", "adolescent", "neonatal"],
+      "description": "Identify trials whose participant descriptions mention children or similar age-specific populations."
+    },
+    {
+      "name": "trials with placebo",
+      "field": "interventions",
+      "keywords": ["placebo"],
+      "description": "Find trials where the intervention or comparator text mentions placebo."
+    },
+    {
+      "name": "trials measuring survival or mortality",
+      "field": "outcomes",
+      "keywords": ["survival", "mortality", "death", "died"],
+      "description": "Find trials that report survival or mortality outcomes."
+    },
+    {
+      "name": "trials measuring pain",
+      "field": "outcomes",
+      "keywords": ["pain", "pain score", "visual analog", "vas"],
+      "description": "Find trials reporting pain-related outcomes."
+    }
+  ]
+}
+
