@@ -1,4 +1,4 @@
-# Copilot Bundle: Combined Notes
+#Notes
 
 This folder collects directories/files produced or updated during the assistant-led implementation flow.
 
